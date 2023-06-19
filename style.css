@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+/* Palettes */
+
+:root {
+  --othercolor: #E74646/*#B08BBB*/; 
+  --cambridgeblue: rgb(134, 186, 144);
+  --buff: rgb(223, 160, 110);
+  --black: #000004;
+  --wine: rgb(124, 50, 56);
+}
+
+.name {
+  /*font-family: 'Bagel Fat One', script;*/
+  font-family: "Moirai One";
+  font-size: 7.1em;
+  font-weight: 800;
+  color: var(--othercolor);
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 500px;
+}
+
+.projects {
+  font-family: 'Bagel Fat One', script;
+  color: var(--cambridgeblue);
+}
+
+.contact {
+  color: var(--buff);
+  font-family: 'Bagel Fat One', script;
+}
+
+.buymeacoffee {
+  color: var(--wine);
+  font-family: 'Bagel Fat One', script;
+}
+
+.hiddenpart {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+body {
+  background-color: white;
+  cursor: url(https://i.redd.it/exv6gqxem8ya1.png), auto;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+#main {
+  background-color: white;
+  width: 500px;
+  text-align: justify;
+}
