@@ -48,18 +48,21 @@ h3, h4 {
 }
 
 .projects {
+  cursor: pointer;
   font-family: 'Bagel Fat One', script;
   color: var(--cambridgeblue);
   font-size: 1.8em;
 }
 
 .contact {
+  cursor: pointer;
   color: var(--buff);
   font-family: 'Bagel Fat One', script;
   font-size: 1.8em;
 }
 
 .buymeacoffee {
+  cursor: pointer;
   color: var(--wine);
   font-family: 'Bagel Fat One', script;
   font-size: 1.8em;
@@ -126,4 +129,8 @@ p {
 
 #css {
   color: var(--wine);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

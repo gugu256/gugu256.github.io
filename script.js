@@ -16,7 +16,7 @@ function displayProjects() {
 
 function displayContacts() {
   if (contactsToggled == false) {
-    document.getElementById("contactspart").innerHTML = '<p>You can talk to me on discord by joining my <u><a href="https://discord.gg/7Xhu2GZw5f" target="_blank" rel="noopener noreferrer">discord server!</a></u> (this also THE place to go if you want to hire me!)</p>'
+    document.getElementById("contactspart").innerHTML = '<p>You can talk to me on discord by joining my <u><a href="https://discord.gg/7Xhu2GZw5f" target="_blank" rel="noopener noreferrer">discord server!</a></u><br>If you don\'t have discord, you can still e-mail me : <u><a href="mailto:gugu256@mail.com">gugu256@mail.com</a></u></p>'
     document.getElementById("arrowcontacts").innerHTML = "▾"
     contactsToggled = true
   } else {
