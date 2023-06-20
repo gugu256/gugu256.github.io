@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 /* Palettes */
 
@@ -12,30 +14,55 @@
   --wine: rgb(124, 50, 56);
 }
 
+h3, h4 {
+  font-family: "Bagel Fat One";
+  font-weight: 480;
+}
+
+
 .name {
   /*font-family: 'Bagel Fat One', script;*/
   font-family: "Moirai One";
   font-size: 7.1em;
   font-weight: 800;
-  color: var(--othercolor);
   margin-top: 0px;
   margin-bottom: 40px;
   width: 500px;
+  /*text-shadow:  0 0 7px #fff, 
+  0 0 10px #fff, 
+  0 0 42px var(--buff),   
+  0 0 77px var(--buff), 
+  0 0 100px var(--buff);*/
+}
+
+#gu1 {
+  color: var(--cambridgeblue);
+}
+
+#pseudo256 {
+  color: var(--wine);
+}
+
+#gu2 {
+  color: var(--buff);
 }
 
 .projects {
   font-family: 'Bagel Fat One', script;
   color: var(--cambridgeblue);
+  font-size: 1.8em;
 }
 
 .contact {
   color: var(--buff);
   font-family: 'Bagel Fat One', script;
+  font-size: 1.8em;
 }
 
 .buymeacoffee {
   color: var(--wine);
   font-family: 'Bagel Fat One', script;
+  font-size: 1.8em;
 }
 
 .hiddenpart {
@@ -44,7 +71,7 @@
 
 a {
   text-decoration: none;
-  color: none;
+  color: inherit;
 }
 
 body {
@@ -56,8 +83,47 @@ h3 {
   font-size: 1.5em;
 }
 
-#main {
+.part {
   background-color: white;
   width: 500px;
   text-align: justify;
+}
+
+
+#links {
+  text-align: center;
+}
+
+p {
+  font-family: "Kanit";
+}
+
+#projectspart {
+  color: var(--cambridgeblue);
+}
+
+#contactspart {
+  color: var(--buff);
+}
+
+#coffeepart {
+  color: var(--wine);
+}
+
+#headline {
+  font-size: 1.7em;
+  font-family: "Roboto Slab";
+  width: 500px;
+}
+
+#py {
+  color: var(--cambridgeblue);
+}
+
+#html {
+  color: var(--buff);
+}
+
+#css {
+  color: var(--wine);
 }
