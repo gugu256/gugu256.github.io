@@ -19,6 +19,9 @@ h3, h4 {
   font-weight: 480;
 }
 
+article {
+  font-family: "Kanit";
+}
 
 .name {
   /*font-family: 'Bagel Fat One', script;*/
@@ -57,6 +60,13 @@ h3, h4 {
 .contact {
   cursor: pointer;
   color: var(--buff);
+  font-family: 'Bagel Fat One', script;
+  font-size: 1.8em;
+}
+
+.news {
+  cursor: pointer;
+  color: black;
   font-family: 'Bagel Fat One', script;
   font-size: 1.8em;
 }
