@@ -70,7 +70,7 @@ function displayCoffee() {
 
 function displayNews() {
   if (newsToggled == false) {
-    document.getElementById("newspart").innerHTML = ""
+    displayFileContent('https://gugu256.github.io/blog.html', 'newspart');
     document.getElementById("arrownews").innerHTML = "▾"
     newsToggled = true
   } else {

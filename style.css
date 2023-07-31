@@ -8,6 +8,7 @@
 
 :root {
   --othercolor: #E74646/*#B08BBB*/; 
+  --lavender : #B08BBB;
   --cambridgeblue: rgb(134, 186, 144);
   --buff: rgb(223, 160, 110);
   --black: #000004;
@@ -117,6 +118,10 @@ p {
 
 #contactspart {
   color: var(--buff);
+}
+
+#newspart {
+  color: black;
 }
 
 #coffeepart {
