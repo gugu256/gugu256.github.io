@@ -2,10 +2,13 @@
 <p><u><a target="_blank" href="https://pypi.org/project/pyiplocation">pyiplocation</a></u> is a simple python package created by me. This package allows you to geolocate IPs without the need for a paid or limited API.<br>
 To get started, you first need to install it :<br><code>pip install pyiplocation</code><br>
 Once installed, create a new python file containing this code snippet :<br></p>
+
 <code class="codeblock">
 import pyiplocation
+
 ip_info = pyiplocation.geolocate("12.34.87.45")
 </code>
+
 <p>the <code>ip_info</code> variable will contain a dictionary containing everything you need about an IP:<br></p>
 <ul>
 <li>The Hostname</li>
