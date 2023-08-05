@@ -45,6 +45,7 @@ code {
 
 .codeblock {
   color: white;
+  text-align: left;
   background-color: #444;
   font-family: Consolas, 'Courier New', monospace;
   border-radius: 4px;
