@@ -39,6 +39,27 @@ article {
   0 0 100px var(--buff);*/
 }
 
+.codeblock {
+  color: white;
+  background-color: #444;
+  font-family: Consolas, 'Courier New', monospace;
+  border-radius: 4px;
+}
+
+.blogtitle {
+  font-family: 'Bagel Fat One', script;
+  font-size: 4em;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 500px;
+  /*text-shadow:  0 0 7px #fff, 
+  0 0 10px #fff, 
+  0 0 42px var(--buff),   
+  0 0 77px var(--buff), 
+  0 0 100px var(--buff);*/
+}
+
 #gu1 {
   color: var(--cambridgeblue);
 }

@@ -14,4 +14,4 @@ open("projects.html", "w+").write(projs)
 blog = frmd(open("blog.md").read())
 blog = blog.replace("<a ", "<a target=\"_blank\" ")
 
-open("blog.html", "w+").write(blog)
+open("articles.html", "w+").write(blog)
