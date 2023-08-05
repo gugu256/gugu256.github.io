@@ -39,7 +39,9 @@ article {
   0 0 100px var(--buff);*/
 }
 
-
+code {
+  font-weight: 900;
+}
 
 .codeblock {
   color: white;
