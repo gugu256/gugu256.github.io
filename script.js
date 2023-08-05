@@ -68,7 +68,7 @@ function displayCoffee() {
   }
 }
 
-function displayNews() {
+/*function displayNews() {
   if (newsToggled == false) {
     displayFileContent('https://gugu256.github.io/blog.html', 'newspart');
     document.getElementById("arrownews").innerHTML = "▾"
@@ -79,4 +79,4 @@ function displayNews() {
     newsToggled = false
   }
 
-}
+}*/
